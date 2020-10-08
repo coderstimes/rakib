@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: 100% 100% no-repeat;
+    cursor: pointer;
+}
+
+body, html {
+    height: 250px;
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.boroPlus_slide{
+    height: 250px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    background: url("../images/bg.jpg");
+}
+
+.discount_pack{
+    background: url("../images/Asset_9.png");
+    width: 116px;
+    height: 61px;
+    position: absolute;
+    top: 16px;
+    left: 87px;
+}
+.discount_code{
+    background: url("../images/Asset_10.png");
+    width: 117px;
+    height: 41px;
+    top: 58px;
+    left: 100px;
+}
+
+.buy_now{
+    background: url("../images/buy_now.png");
+    width: 112px;
+    height: 55px;
+    left: 90px;
+    top: 46px;
+}
+
+.product_1{
+    background: url("../images/1.png");
+    width: 143px;
+    height: 163px;
+    top: 244px;
+    left: 87px;
+}
+
+.product_2{
+    background: url("../images/2.png");
+    width: 140px;
+    height: 176px;
+    top: 100px;
+    left: -4px;
+}
+.product_3{
+    background: url("../images/3.png");
+    width: 145px;
+    height: 172px;
+    top: 110px;
+    left: 122px;
+}
+.product_4{
+    background: url("../images/4.png");
+    width: 128px;
+    height: 122px;
+    top: 151px;
+    left: 64px;
+}
+
+
+/*.buy_now {*/
+    /*animation: 3s ease-out 5s 1 wait, 0.21s ease-out 3s 1 fade;*/
+/*}*/
+
+/*@keyframes wait {*/
+    /*from { transform: translateY(20px); }*/
+    /*to { transform: translateY(20px); }*/
+/*}*/
+
+/*@keyframes fade {*/
+    /*0%,100% { opacity: 0 }*/
+    /*50% { opacity: 1 }*/
+/*}*/
+
+/*!*@keyframes fade {*!*/
+    /*!*from { transform: translateY(20px); opacity: 0; }*!*/
+    /*!*to { transform: translateY(0); opacity: 1; }*!*/
+/*!*}*!*/
+
+/*.discount_pack {*/
+    /*-webkit-animation-delay: 5s;*/
+    /*animation-delay: 5s;*/
+    /*opacity: 1;*/
+    /*animation: fade 2s infinite;*/
+/*}*/
+
+
+/*@keyframes fade {*/
+    /*0%,100% { opacity: 0 }*/
+    /*50% { opacity: 1 }*/
+/*}*/
+
+/*.buy_now {*/
+    /*animation: 3s ease-out 5s 1 wait, 0.21s ease-out 3s 1 fade;*/
+    /*opacity: 1;*/
+/*}*/
+
+
+/*@keyframes fade {*/
+    /*0%,100% { opacity: 0 }*/
+    /*50% { opacity: 1 }*/
+/*}*/
+
+
+
+/*.buy_now, .discount_pack {*/
+    /*animation: FadeInOut 2s infinite;*/
+/*}*/
+
+/*@keyframes fade-in {*/
+    /*0%,100% { opacity: 0 }*/
+    /*50% { opacity: 1 }*/
+    /*}*/
+
+/*.discount_pack {*/
+    /*animation: fade-in 2s infinite;*/
+/*}*/
+
+/*@keyframes fade-in {*/
+    /*0%,100% { opacity: 0 }*/
+    /*50% { opacity: 1 }*/
+/*}*/
+
+/*@keyframes fade-in {*/
+    /*0% {*/
+        /*background-image: url('../images/buy_now.png');*/
+        /*opacity: 1;*/
+    /*}*/
+    /*20% {*/
+        /*background-image: url('../images/Asset_9.png');*/
+        /*opacity: 1;*/
+    /*}*/
+/*}*/
+
+
+/*.buy_now ,.discount_pack{*/
+    /*animation: fadeIn 6s linear infinite;*/
+    /*animation-duration: 5s;*/
+    /*animation-delay: 5s;*/
+    /*animation-timing-function: ease;*/
+/*}*/
+
+/*.discount_pack{*/
+    /*animation: fadeIn 3s infinite;*/
+    /*animation-duration: 3s;*/
+    /*animation-timing-function: ease;*/
+/*}*/
+
+/*@keyframes fadeIn {*/
+
+    /*from{*/
+        /*background: url("../images/buy_now.png");*/
+        /*opacity: 5;*/
+    /*}*/
+    /*to{*/
+        /*background: url("../images/Asset_9.png");*/
+        /*opacity: 5;*/
+    /*}*/
+/*}*/
+
+/*@keyframes fadeIn {*/
+    /*0% {*/
+        /*background: url("../images/buy_now.png");*/
+    /*}*/
+    /*50% {*/
+        /*background: url("../images/Asset_9.png");*/
+    /*}*/
+    /*!*100% {*!*/
+        /*!*background: url("../images/Asset_9.png");*!*/
+    /*!*}*!*/
+/*}*/
+
+
+.buy_now , .discount_pack{
+    -webkit-animation: fadeIn 5s cubic-bezier(1,0,0,1) infinite;
+    animation: fadeIn 5s cubic-bezier(1,0,0,1) infinite;
+
+    /*animation: fadeIn 6s linear infinite;*/
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+@-webkit-keyframes fadeIn {
+    0% { background: url("../images/buy_now.png") }
+    33% { background: url("../images/Asset_9.png") }
+    67% { background: url("../images/buy_now.png")}
+    100% { background: url("../images/Asset_9.png") }
+}
+
+@keyframes fadeIn {
+    0% {  background: url("../images/buy_now.png") }
+    33% { background: url("../images/Asset_9.png") }
+    67% { background: url("../images/buy_now.png")}
+    100% { background: url("../images/Asset_9.png") }
+}
+
+
+.product_1 {
+    -webkit-animation: animated 2s ease     ;
+    animation: animated 2s ease;
+    width: 143px;
+    height: 163px;
+    top: 88px;
+    /*bottom: 244px;*/
+    position: absolute;
+    left: 87px;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+@keyframes animated {
+    from{transform: translate(0px,1000px);}
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+.product_2 {
+    -webkit-animation: animated 3s ease     ;
+    animation: animated 3s ease;
+    width: 140px;
+    height: 176px;
+    top: 100px;
+    left: -4px;
+    position: absolute;
+    /*left: 87px;*/
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+@keyframes animated {
+    from{transform: translate(0px,1000px);}
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+.product_3 {
+    -webkit-animation: animated 3s ease     ;
+    animation: animated 3s ease;
+    width: 143px;
+    height: 163px;
+    top: 105px;
+    /*bottom: 244px;*/
+    position: absolute;
+    left: 126px;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+@keyframes animated {
+    from{transform: translate(0px,1000px);}
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
+
+.product_4 {
+    -webkit-animation: animated 3s ease     ;
+    animation: animated 3s ease;
+    position: absolute;
+    opacity: 1;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+@keyframes animated {
+    from{transform: translate(0px,1000px);}
+
+    to{
+        transform: translate(0px,0px);
+    }
+}
